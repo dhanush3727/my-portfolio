@@ -1,0 +1,92 @@
+@media (max-width: 930px) {
+  .myImg {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 880px) {
+  .home2 {
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 10px;
+  }
+  .home2-content {
+    padding-top: 0;
+  }
+  .home2-content h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .myImg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+  .home-img {
+    width: 100%;
+  }
+  .home-content {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .home2-content h2 {
+    font-size: 1.8rem;
+  }
+  .home2-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .home2 {
+    padding: 20px 30px;
+  }
+  .home2-content h2 {
+    font-size: 1.5rem;
+  }
+  .home2-content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .span1 {
+    font-size: 1.8rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .span2 {
+    font-size: 2rem;
+  }
+  .span3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .home2 {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-img img {
+    width: 250px;
+    height: 250px;
+  }
+}
