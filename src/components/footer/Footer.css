@@ -1,5 +1,5 @@
-@media (max-width: 600px) {
+@media (max-width: 580px) {
   .footer {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
