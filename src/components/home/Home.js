@@ -22,7 +22,7 @@ const Home = () => {
             </span>
             <br />
             <span className="span3 text-[2rem] text-[#c863ef]  font-medium">
-              {/* <Typewriter
+              <Typewriter
                 options={{
                   strings: [
                     "Frontend Developer",
@@ -34,8 +34,7 @@ const Home = () => {
                   loop: true,
                   delay: 70,
                 }}
-              /> */}
-              Frontend Developer
+              />
             </span>
           </h1>
         </div>
