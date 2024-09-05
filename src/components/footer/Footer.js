@@ -15,25 +15,25 @@ const Footer = () => {
             S. Dhanush
           </p>
         </div>
-        <div className="flex gap-[10px]">
+        <div className="flex gap-[20px]">
           <div>
             <a href="https://github.com/dhanush3727" target="_blank">
-              <FaGithub color="#fff" size={25} />
+              <FaGithub color="#fff" size={20} />
             </a>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/dhanush15/" target="_blank">
-              <FaLinkedin color="#fff" size={25} />
+              <FaLinkedin color="#fff" size={20} />
             </a>
           </div>
           <div>
             <a href="https://www.instagram.com/s.dhanush_15" target="_blank">
-              <FaSquareInstagram color="#fff" size={25} />
+              <FaSquareInstagram color="#fff" size={20} />
             </a>
           </div>
           <div>
             <a href="mailto:dhanushs4827@gmail.com" target="_blank">
-              <IoMdMail color="#fff" size={25} />
+              <IoMdMail color="#fff" size={20} />
             </a>
           </div>
         </div>

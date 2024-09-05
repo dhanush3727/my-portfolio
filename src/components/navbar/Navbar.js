@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="flex justify-between items-center px-28 py-[10px] text-[20px] sticky top-[0] [transition:all_0.5s] nav-bar"
+      className="flex justify-between items-center px-28 py-[10px] text-[20px] sticky top-[0] [transition:all_0.5s] z-50 nav-bar"
       id={navColor ? "navbar" : "navId"}
     >
       <div>
