@@ -1,0 +1,45 @@
+.card {
+  transition: all 0.2s;
+}
+
+.card:hover {
+  border: 2px solid #c863ef;
+  box-shadow: rgba(200, 99, 239, 0.19) 0px 10px 20px,
+    rgba(200, 99, 239, 0.23) 0px 6px 6px;
+  transform: scale(1.03);
+}
+
+.btn:hover {
+  background-color: #b700ff;
+}
+
+.dot {
+  animation-name: dotted;
+}
+
+@keyframes dotted {
+  from {
+    color: red;
+  }
+  to {
+    color: black;
+  }
+}
+
+@media (max-width: 455px) {
+  .title {
+    font-size: 25px;
+  }
+  .content {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 370px) {
+  .card h1 {
+    font-size: 15px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+}

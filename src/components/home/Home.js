@@ -28,7 +28,6 @@ const Home = () => {
                     "Frontend Developer",
                     "React Developer",
                     "Web Developer",
-                    "Freelancer",
                   ],
                   autoStart: true,
                   loop: true,
