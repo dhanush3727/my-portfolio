@@ -17,22 +17,38 @@ const Footer = () => {
         </div>
         <div className="flex gap-[20px]">
           <div>
-            <a href="https://github.com/dhanush3727" target="_blank">
+            <a
+              href="https://github.com/dhanush3727"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub color="#fff" size={20} />
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/dhanush15/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/dhanush15/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin color="#fff" size={20} />
             </a>
           </div>
           <div>
-            <a href="https://www.instagram.com/s.dhanush_15" target="_blank">
+            <a
+              href="https://www.instagram.com/s.dhanush_15"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaSquareInstagram color="#fff" size={20} />
             </a>
           </div>
           <div>
-            <a href="mailto:dhanushs4827@gmail.com" target="_blank">
+            <a
+              href="mailto:dhanushs4827@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IoMdMail color="#fff" size={20} />
             </a>
           </div>

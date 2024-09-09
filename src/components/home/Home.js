@@ -90,6 +90,7 @@ const Home = () => {
             <a
               href="https://github.com/dhanush3727"
               target="_blank"
+              rel="noreferrer"
               className="grid place-items-center pt-[10px]"
             >
               <FaGithub color="#6f0d85" size={30} />
@@ -99,6 +100,7 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/dhanush15/"
               target="_blank"
+              rel="noreferrer"
               className="grid place-items-center pt-[10px]"
             >
               <FaLinkedin color="#6f0d85" size={30} />
@@ -108,6 +110,7 @@ const Home = () => {
             <a
               href="https://www.instagram.com/s.dhanush_15"
               target="_blank"
+              rel="noreferrer"
               className="grid place-items-center pt-[10px]"
             >
               <FaSquareInstagram color="#6f0d85" size={30} />
@@ -117,6 +120,7 @@ const Home = () => {
             <a
               href="mailto:dhanushs4827@gmail.com"
               target="_blank"
+              rel="noreferrer"
               className="grid place-items-center pt-[10px]"
             >
               <IoMdMail color="#6f0d85" size={30} />

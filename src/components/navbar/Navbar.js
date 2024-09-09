@@ -71,7 +71,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <div>
-            <a href={Resume} target="_blank">
+            <a href={Resume} target="_blank" rel="noreferrer">
               <button className="bg-[#c964f1] rounded-[100px]  [box-shadow:rgba(0,_0,_0,_0.35)_0px_5px_15px] text-[white] cursor-pointer inline-block font-[CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif] px-[20px] py-[7px] text-center no-underline [transition:all_250ms] border-[0] text-[15px] select-none">
                 Check Resume
               </button>

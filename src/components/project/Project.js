@@ -37,12 +37,17 @@ const Project = () => {
               <a
                 href="https://github.com/dhanush3727/Weather_Project"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Code
                 </button>
               </a>
-              <a href="https://weatherapp03.netlify.app/" target="_blank">
+              <a
+                href="https://weatherapp03.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Demo
                 </button>
@@ -67,12 +72,17 @@ const Project = () => {
               <a
                 href="https://github.com/dhanush3727/Shopping-Cart"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Code
                 </button>
               </a>
-              <a href="https://shoppingcart15.netlify.app/" target="_blank">
+              <a
+                href="https://shoppingcart15.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Demo
                 </button>
@@ -97,12 +107,17 @@ const Project = () => {
               <a
                 href="https://github.com/dhanush3727/Food_Recipe"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Code
                 </button>
               </a>
-              <a href="https://foodrecipe15.netlify.app/" target="_blank">
+              <a
+                href="https://foodrecipe15.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Demo
                 </button>
@@ -128,6 +143,7 @@ const Project = () => {
               <a
                 href="https://github.com/dhanush3727/Form-Validation"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Code
@@ -136,6 +152,7 @@ const Project = () => {
               <a
                 href="https://reactformvalidation15.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="btn text-[#fff] bg-[#5a327b] py-[10px] px-[20px] rounded-[3px]">
                   Demo
