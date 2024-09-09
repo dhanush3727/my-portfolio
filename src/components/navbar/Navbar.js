@@ -26,6 +26,10 @@ const Navbar = () => {
     setMenuBar(!menuBar);
   };
 
+  const closeMenu = () => {
+    setMenuBar(false);
+  };
+
   return (
     <nav
       className="flex justify-between items-center px-28 py-[10px] text-[20px] sticky top-[0] [transition:all_0.5s] z-50 nav-bar"
@@ -49,23 +53,23 @@ const Navbar = () => {
           }`}
         >
           <li className="relative nav-link">
-            <NavLink to={"/"}>
+            <NavLink to={"/"} onClick={closeMenu}>
               <GoHome className="absolute right-[3.8rem] top-[5px]" /> Home
             </NavLink>
           </li>
           <li className="relative nav-link">
-            <NavLink to={"/about"}>
+            <NavLink to={"/about"} onClick={closeMenu}>
               <RxAvatar className="absolute right-[3.8rem] top-[5px]" /> About
             </NavLink>
           </li>
           <li className="relative nav-link">
-            <NavLink to={"/project"}>
+            <NavLink to={"/project"} onClick={closeMenu}>
               <AiOutlineFundProjectionScreen className="absolute right-[4.4rem] top-[6px]" />{" "}
               Project
             </NavLink>
           </li>
           <li className="relative nav-link">
-            <NavLink to={"/contact"}>
+            <NavLink to={"/contact"} onClick={closeMenu}>
               <SiMinutemailer className="absolute right-[5.2rem] top-[5px]" />{" "}
               Contact
             </NavLink>
