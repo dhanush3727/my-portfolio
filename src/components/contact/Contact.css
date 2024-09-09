@@ -1,0 +1,12 @@
+form input,
+form textarea {
+  outline: none;
+}
+
+form button {
+  outline: none;
+}
+
+form button:hover {
+  background-color: #b700ff;
+}
