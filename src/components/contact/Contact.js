@@ -7,6 +7,7 @@ const Contact = () => {
   const initialValue = {
     fullName: "",
     email: "",
+    subject: "",
     msg: "",
   };
   const [formValues, setFormValues] = useState(initialValue);
@@ -25,6 +26,7 @@ const Contact = () => {
           setFormValues({
             fullName: "",
             email: "",
+            subject: "",
             msg: "",
           });
         },
@@ -76,6 +78,21 @@ const Contact = () => {
             placeholder="Email"
             className="p-4 mb-4 w-full rounded-[5px]"
             value={formValues.email}
+            onChange={handleChange}
+            required
+          />
+          <br />
+          <label htmlFor="subject" className="text-[#fff] text-[20px]">
+            Subject :{" "}
+          </label>
+          <br />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+            className="p-[15px] mb-4 w-full rounded-[5px] "
+            value={formValues.subject}
             onChange={handleChange}
             required
           />
