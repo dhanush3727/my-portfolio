@@ -6,6 +6,8 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
+  const date = new Date();
+
   return (
     <div className="bg-[#0b0416]">
       <div className="footer p-4 flex justify-between items-center gap-[20px]">
@@ -54,7 +56,9 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className="text-[#fff]">Copyright &copy; 2024 SD</p>
+          <p className="text-[#fff]">
+            Copyright &copy; {date.getFullYear()} SD
+          </p>
         </div>
       </div>
     </div>
