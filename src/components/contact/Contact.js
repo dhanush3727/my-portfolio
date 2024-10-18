@@ -13,7 +13,6 @@ const Contact = () => {
     msg: "",
   };
   const [formValues, setFormValues] = useState(initialValue);
-  const [toastMsg, setToastMsg] = useState(false);
 
   const handleForm = (e) => {
     e.preventDefault();
@@ -24,8 +23,8 @@ const Contact = () => {
       })
       .then(
         () => {
+          notify();
           console.log("SUCCESS!");
-          setToastMsg(true);
           setFormValues({
             fullName: "",
             email: "",
@@ -47,7 +46,7 @@ const Contact = () => {
   const notify = () =>
     toast.success("Message Sent Succesfully", {
       position: "top-right",
-      autoClose: 3000,
+      autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -129,7 +128,6 @@ const Contact = () => {
           ></textarea>
           <br />
           <button
-            onClick={toastMsg ? notify : null}
             type="submit"
             className="w-full text-[#fff] p-[10px]  text-[20px] bg-[#5a327b] rounded-[5px]"
           >
