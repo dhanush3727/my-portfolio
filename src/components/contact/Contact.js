@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -11,6 +13,7 @@ const Contact = () => {
     msg: "",
   };
   const [formValues, setFormValues] = useState(initialValue);
+  const [toastMsg, setToastMsg] = useState(false);
 
   const handleForm = (e) => {
     e.preventDefault();
@@ -22,7 +25,7 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          alert("Message Sent Succesfully");
+          setToastMsg(true);
           setFormValues({
             fullName: "",
             email: "",
@@ -32,7 +35,6 @@ const Contact = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
-          alert("Message wasn't sent");
         }
       );
   };
@@ -41,6 +43,19 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
   };
+
+  const notify = () =>
+    toast.success("Message Sent Succesfully", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
 
   return (
     <div>
@@ -114,11 +129,13 @@ const Contact = () => {
           ></textarea>
           <br />
           <button
+            onClick={toastMsg ? notify : null}
             type="submit"
             className="w-full text-[#fff] p-[10px]  text-[20px] bg-[#5a327b] rounded-[5px]"
           >
             Submit
           </button>
+          <ToastContainer />
         </form>
       </div>
     </div>
